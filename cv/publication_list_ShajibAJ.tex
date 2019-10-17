@@ -1,0 +1,117 @@
+\documentclass[11pt]{article}
+
+\usepackage{amsmath, amssymb}
+\usepackage[breaklinks,colorlinks,citecolor=magenta, linkcolor=magenta, urlcolor=magenta]{hyperref}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{etaremune}
+
+%% DYF styles
+%% Page styles
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+%\doublespacing
+
+%% header and footer style
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Anowar J. Shajib}
+\lhead{Publication list}
+\cfoot{\thepage}
+
+%% compact bibliography style
+\newcommand{\apj}{ApJ}
+\newcommand{\aj}{AJ}
+\newcommand{\mnras}{MNRAS}
+\newcommand{\physrep}{Phys. Rep.}
+\newcommand{\jcap}{JCAP}
+
+%\usepackage{natbib}
+\usepackage[style=nature,maxnames=1,uniquelist=false]{biblatex}
+
+\ExecuteBibliographyOptions{isbn=false,url=false,doi=false,eprint=false}
+
+% One-paragraph bibliography environment
+\defbibenvironment{bibliography}
+  {\list
+     {\printtext[labelnumberwidth]{%
+        \printfield{prefixnumber}%
+        \printfield{labelnumber}}%
+      \ifentrytype{article}{% Suppress remaining fields/names/lists here
+        \clearfield{title}}{}}
+     {\setlength{\leftmargin}{0pt}%
+      \setlength{\topsep}{0pt}}%
+      \renewcommand*{\makelabel}[1]{##1}}
+  {\endlist}
+  {\mkbibitem}
+
+% \mkbibitem just prints item label and non-breakable space
+\makeatletter
+\newcommand{\mkbibitem}{\@itemlabel\addnbspace}
+\makeatother
+
+% Add breakable space between bibliography items
+\renewcommand*{\finentrypunct}{\addperiod\space}
+
+% et al. string upright (nature style applies \mkbibemph)
+\renewbibmacro*{name:andothers}{%
+  \ifboolexpr{
+    test {\ifnumequal{\value{listcount}}{\value{liststop}}}
+    and
+    test \ifmorenames
+  }
+    {\ifnumgreater{\value{liststop}}{1}{\finalandcomma}{}%
+     \andothersdelim
+     \bibstring{andothers}}
+    {}}
+
+\addbibresource{/Users/ajshajib/STRIDES/Papers/Anowar/ajshajib.bib}
+
+%% timeline style
+%\usepackage{fourier, heuristica}
+\usepackage{array, booktabs}
+\usepackage[x11names,table]{xcolor}
+\usepackage{caption}
+\DeclareCaptionFont{blue}{\color{LightSteelBlue3}}
+
+\newcommand{\foo}{\color{LightSteelBlue3}\makebox[0pt]{\textbullet}\hskip-0.5pt\vrule width 1pt\hspace{\labelsep}}
+
+%% new commands
+
+\newcommand{\LCDM}{$\Lambda$CDM}
+\newcommand{\Ho}{$H_0$}
+
+%% document starts here 
+\begin{document}
+\textbf{First Author Refereed Publications}
+\begin{enumerate}
+	\item {Shajib, A. J.} Unified lensing and kinematic analysis for \textit{any} elliptical mass profile. \\ \href{https://doi.org/10.1093/mnras/stz1796}{MNRAS, 488, 1387-1400, 2019}.
+	\item {Shajib, A. J.}, et al. Is every strong lens model unhappy in its own way? Uniform modelling of a sample of 13 quadruply+ imaged quasars. \href{https://doi.org/10.1093/mnras/sty3397}{MNRAS, 483, 5649-5671, 2019}.
+	\item {Shajib, A. J.}, Treu, T., and Agnello, A. Improving time-delay cosmography with spatially resolved kinematics. \href{https://doi.org/10.1093/mnras/stx2302}{MNRAS, 473, 210-226, 2018}.
+	\item {Shajib, A. J.} and Wright, E. L. Measurement of the integrated Sachs-Wolfe effect using the AllWISE data release. \href{http://dx.doi.org/10.3847/0004-637X/827/2/116}{ApJ, 827:116 (9pp), 2016}.
+\end{enumerate}
+
+\textbf{Contributing Author Refereed Publications} 
+\begin{enumerate}
+	\item Chen, G. C.-F., et al. A SHARP view of H0LiCOW: H0 from three time-delay gravitational lens systems with adaptive optics imaging. \href{https://academic.oup.com/mnras/article/doi/10.1093/mnras/stz2547/5568378/}{MNRAS, stz2547, 2019}.
+	\item Taubenberger, S., et al. The Hubble Constant determined through an inverse distance ladder including quasar time delays and Type Ia supernovae. \href{https://www.aanda.org/articles/aa/abs/2019/08/aa35980-19/aa35980-19.html}{A\&A, 628, L7, 2019}.
+	\item Sluse, D., et al. H0LiCOW XI: Spectroscopic/imaging survey and galaxy-group identification around the strong gravitational lens system WFI2033-4723. \href{https://academic.oup.com/mnras/article/doi/10.1093/mnras/stz2483/5561514/}{MNRAS, stz2483, 2019}.
+	%\item Beaton, R. L., et al. Measuring the Hubble Constant Near and Far in the Era of ELT's. \href{https://ui.adsabs.harvard.edu/abs/2019BAAS...51c.456B/abstract}{BAAS 51(3) 456, 	2019}.
+	\item Birrer, S., et al. H0LiCOW - IX. Cosmographic analysis of the doubly imaged quasar SDSS 1206+4332 and a new measurement of the Hubble constant. \href{https://doi.org/10.1093/mnras/stz200}{MNRAS, 484, 4726-4753, 2019}.
+	\item Chen, G. C.-F., et al. Constraining the microlensing effect on time delays with new time-delay prediction model in $H_0$ measurements. \href{https://doi.org/10.1093/mnras/sty2350}{MNRAS, 481, 1115-1125, 2018}.
+	%\item Ding, X., Treu, T., {\bf Shajib, A. J.}, et al. Time Delay Lens Modeling Challenge: I. Experimental Design. \href{https://arxiv.org/abs/1801.01506}{arXiv:1801.01506, 2018}.
+ 	\item Williams, P. R., et al. Discovery of three strongly lensed quasars in the Sloan Digital Sky Survey. \href{https://doi.org/10.1093/mnrasl/sly043}{MNRAS: Letters, 477, L70-L74, 2018}.
+\end{enumerate}
+
+\textbf{Under-review/Non-refereed Publications (Contributing Author)} 
+\begin{enumerate}
+	\item Wong, C. K., et al. H0LiCOW XIII. A 2.4\% measurement of $H_0$ from lensed quasars: 5.3$\sigma$ tension between early and late-Universe probes. \href{https://arxiv.org/abs/1907.04869}{arXiv:1907.04869, 2019}.
+	\item Rusu, C. E., et al. H0LiCOW XII. Lens mass model of WFI2033-4723 and blind measurement of its time-delay distance and $H_0$. \href{http://adsabs.harvard.edu/abs/2019arXiv190509338R}{arXiv:1905.09338, 2019}.
+	\item Beaton, R. L., et al. Measuring the Hubble Constant Near and Far in the Era of ELT's. \href{https://ui.adsabs.harvard.edu/abs/2019BAAS...51c.456B/abstract}{BAAS 51(3) 456, 	2019}.
+	\item Ding, X., Treu, T., {\bf Shajib, A. J.}, et al. Time Delay Lens Modeling Challenge: I. Experimental Design. \href{https://arxiv.org/abs/1801.01506}{arXiv:1801.01506, 2018}.
+\end{enumerate}
+
+
+\end{document}
