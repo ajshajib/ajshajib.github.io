@@ -1,9 +1,9 @@
 [0] Config.pm:304> INFO - This is Biber 2.12
 [0] Config.pm:307> INFO - Logfile is '/Users/ajshajib/Dropbox/PyCharm Projects/ajshajib.github.io/cv/publication_list_ShajibAJ.blg'
-[40] biber-darwin:315> INFO - === Thu Oct  3, 2019, 18:07:36
-[59] Biber.pm:371> INFO - Reading '/Users/ajshajib/Dropbox/PyCharm Projects/ajshajib.github.io/cv/publication_list_ShajibAJ.bcf'
-[132] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
-[138] Utils.pm:193> WARN - The file '/Users/ajshajib/Dropbox/PyCharm Projects/ajshajib.github.io/cv/publication_list_ShajibAJ.bcf' does not contain any citations!
-[144] bbl.pm:636> INFO - Writing '/Users/ajshajib/Dropbox/PyCharm Projects/ajshajib.github.io/cv/publication_list_ShajibAJ.bbl' with encoding 'UTF-8'
-[144] bbl.pm:739> INFO - Output to /Users/ajshajib/Dropbox/PyCharm Projects/ajshajib.github.io/cv/publication_list_ShajibAJ.bbl
-[144] Biber.pm:110> INFO - WARNINGS: 1
+[43] biber-darwin:315> INFO - === Sun Oct 27, 2019, 14:02:33
+[64] Biber.pm:371> INFO - Reading '/Users/ajshajib/Dropbox/PyCharm Projects/ajshajib.github.io/cv/publication_list_ShajibAJ.bcf'
+[165] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
+[171] Utils.pm:193> WARN - The file '/Users/ajshajib/Dropbox/PyCharm Projects/ajshajib.github.io/cv/publication_list_ShajibAJ.bcf' does not contain any citations!
+[177] bbl.pm:636> INFO - Writing '/Users/ajshajib/Dropbox/PyCharm Projects/ajshajib.github.io/cv/publication_list_ShajibAJ.bbl' with encoding 'UTF-8'
+[178] bbl.pm:739> INFO - Output to /Users/ajshajib/Dropbox/PyCharm Projects/ajshajib.github.io/cv/publication_list_ShajibAJ.bbl
+[178] Biber.pm:110> INFO - WARNINGS: 1
