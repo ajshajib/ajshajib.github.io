@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.2.1)  16 JUN 2022 20:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.2.1)  23 AUG 2022 10:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -239,61 +239,67 @@ Overfull \hbox (3.8534pt too wide) in paragraph at lines 72--73
 []\OT1/cmr/bx/n/10 NHFP Ein-stein Fel-low\OT1/cmr/m/n/10 , De-part-ment of As-tron-omy and As-trophsy-cis, The Uni-ver-sity of Chicago,
  []
 
+
+Overfull \hbox (11.0383pt too wide) in paragraph at lines 143--144
+[]\OT1/cmr/m/n/10 Boom! work-shop on Ex-plo-sive Tran-sients with LSST. Uni-ver-sity of Illi-nois at Urbana-Champaign,
+ []
+
 [1
 
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
-Overfull \hbox (1.6864pt too wide) in paragraph at lines 218--219
+Overfull \hbox (1.6864pt too wide) in paragraph at lines 222--223
 []\OT1/cmr/m/n/10 Non-Standard Cos-mol-ogy Probes, As-pen Cen-ter of Physics, Col-orado, USA, August--September
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 243.
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
+[3]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 247.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 243.
-LaTeX Font Info:    Try loading font information for U+fontawesometwo on input line 243.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 247.
+LaTeX Font Info:    Try loading font information for U+fontawesometwo on input line 247.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
 File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
-) [3]
-Underfull \hbox (badness 10000) in paragraph at lines 289--290
+)
+Underfull \hbox (badness 10000) in paragraph at lines 293--294
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 295--296
+Underfull \hbox (badness 10000) in paragraph at lines 299--300
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 367--374
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 371--378
 
  []
 
-[4] [5]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 444.
+[5]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 448.
  [6]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 444.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 448.
  (./CV_ShajibAJ.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 444.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 444.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 448.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 448.
 Package rerunfilecheck Info: File `CV_ShajibAJ.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 444.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 448.
  ) 
 Here is how much of TeX's memory you used:
- 6828 strings out of 492616
- 98861 string characters out of 6128983
+ 6832 strings out of 492616
+ 98889 string characters out of 6128983
  192731 words of memory out of 5000000
  10622 multiletter control sequences out of 15000+600000
  5684 words of font info for 21 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  30i,11n,43p,387b,440s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on CV_ShajibAJ.pdf (6 pages, 151445 bytes).
+Output written on CV_ShajibAJ.pdf (6 pages, 152745 bytes).
 PDF statistics:
- 220 PDF objects out of 1000 (max. 8388607)
- 200 compressed objects within 2 object streams
- 90 named destinations out of 1000 (max. 500000)
+ 228 PDF objects out of 1000 (max. 8388607)
+ 207 compressed objects within 3 object streams
+ 94 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
