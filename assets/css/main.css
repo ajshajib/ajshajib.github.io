@@ -1,5 +1,5 @@
 @import url("font-awesome.min.css");
-@import url("http://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Source+Code+Pro:wght@400&display=swap");
 
 /*
 	Read Only by HTML5 UP
@@ -1728,7 +1728,7 @@ body,
 input,
 select,
 textarea {
-	color: #888;
+	color: #565656;
 	font-family: "Lato", sans-serif;
 	font-size: 16pt;
 	font-weight: 400;
@@ -1740,7 +1740,7 @@ a {
 	-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 	-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 	transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-	border-bottom: solid 1px #e4e4e4;
+	border-bottom: solid 1px rgba(74, 202, 168, 0.3);
 	color: inherit;
 	text-decoration: none;
 }
@@ -1752,7 +1752,7 @@ a:hover {
 
 strong,
 b {
-	color: #777;
+	color: #333;
 	font-weight: 700;
 }
 
@@ -1762,7 +1762,7 @@ i {
 }
 
 p {
-	margin: 0 0 2.25em 0;
+	margin: 0 0 1.75em 0;
 }
 
 .container p {
@@ -1775,7 +1775,7 @@ h3,
 h4,
 h5,
 h6 {
-	color: #777;
+	color: #484848;
 	font-weight: 700;
 	line-height: 1em;
 	margin: 0 0 0.5625em 0;
@@ -2760,11 +2760,11 @@ input[type="button"]:disabled,
 /* Main */
 
 #main>section {
-	border-top: solid 6px #f4f4f4;
+	border-top: solid 1px #e0e4e8;
 }
 
 #main>section>.container {
-	padding: 6em 0 4em 0;
+	padding: 4.5em 0 3em 0;
 }
 
 #main>section:first-child {
@@ -2780,7 +2780,7 @@ input[type="button"]:disabled,
 	background-size: cover;
 	content: '';
 	display: block;
-	height: 15em;
+	height: 12em;
 	width: 100%;
 }
 
@@ -2854,7 +2854,7 @@ input[type="button"]:disabled,
 	/* Main */
 
 	#main>section>.container {
-		padding: 4em 0 2em 0;
+		padding: 3.5em 0 1.5em 0;
 	}
 
 }
@@ -3240,6 +3240,7 @@ input[type="button"]:disabled,
 
 .profile-highlights .stat-card {
 	border: 1px solid rgba(32, 32, 32, 0.12);
+	border-left: 3px solid #4acaa8;
 	border-radius: 0.75em;
 	padding: 1em 1.1em;
 	background: rgba(255, 255, 255, 0.72);
