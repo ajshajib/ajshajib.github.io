@@ -63,6 +63,9 @@
     <div id="wrapper">
         <div id="main">
             <section id="one">
+                <div class="banner-hero"
+                    data-caption="I took this picture on my phone when I was visiting the Keck Observatory on top of Mount Mauna Kea.">
+                </div>
                 <div class="container">
                     <header class="major">
                         <h3>About me</h3>
@@ -432,6 +435,19 @@
     <script src="assets/js/util.js"></script>
     <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
     <script src="assets/js/main.js"></script>
+    <script>
+        (function () {
+            var banner = document.querySelector('.banner-hero');
+            if (!banner) return;
+            function updateParallax() {
+                var rect = banner.getBoundingClientRect();
+                var shift = -rect.top * 0.22;
+                banner.style.backgroundPositionY = 'calc(50% + ' + shift.toFixed(1) + 'px)';
+            }
+            window.addEventListener('scroll', updateParallax, { passive: true });
+            updateParallax();
+        })();
+    </script>
 </body>
 
 </html>

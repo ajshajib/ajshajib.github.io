@@ -2774,14 +2774,42 @@ input[type="button"]:disabled,
 /* One */
 
 #one:before {
-	background-image: url("../../images/banner.jpg");
-	background-position: top right;
-	background-repeat: no-repeat;
-	background-size: cover;
 	content: '';
 	display: block;
-	height: 12em;
-	width: 100%;
+	height: 0;
+	width: 0;
+}
+
+.banner-hero {
+	position: relative;
+	height: 18em;
+	background-image: url("../../images/banner.jpg");
+	background-position: center 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	cursor: default;
+}
+
+.banner-hero::after {
+	content: attr(data-caption);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.62);
+	color: #e8e8e8;
+	font-size: 0.78em;
+	font-style: italic;
+	padding: 0.55em 1.25em;
+	text-align: center;
+	opacity: 0;
+	transition: opacity 0.25s ease;
+	pointer-events: none;
+}
+
+.banner-hero:hover::after {
+	opacity: 1;
 }
 
 /* Footer */
@@ -2971,7 +2999,11 @@ input[type="button"]:disabled,
 	/* One */
 
 	#one:before {
-		height: 10em;
+		height: 0;
+	}
+
+	.banner-hero {
+		height: 14em;
 	}
 
 	/* Off-Canvas Navigation */
@@ -3178,7 +3210,11 @@ input[type="button"]:disabled,
 	/* One */
 
 	#one:before {
-		height: 7em;
+		height: 0;
+	}
+
+	.banner-hero {
+		height: 10.5em;
 	}
 
 	/* Footer */
