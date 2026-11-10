@@ -2646,7 +2646,7 @@ input[type="button"]:disabled,
 	position: fixed;
 	text-align: center;
 	top: 0;
-	width: 23em;
+	width: 24em;
 	right: 0;
 	display: flex;
 	flex-direction: column;
@@ -2760,7 +2760,7 @@ input[type="button"]:disabled,
 
 #wrapper {
 	background: #fff;
-	padding-right: 23em;
+	padding-right: 24em;
 }
 
 /* Main */
@@ -2868,7 +2868,7 @@ input[type="button"]:disabled,
 	/* Header */
 
 	#header {
-		width: 21em;
+		width: 22em;
 	}
 
 	#header>header {
@@ -2882,7 +2882,7 @@ input[type="button"]:disabled,
 	/* Wrapper */
 
 	#wrapper {
-		padding-right: 21em;
+		padding-right: 22em;
 	}
 
 	/* Main */
@@ -2909,13 +2909,13 @@ input[type="button"]:disabled,
 	/* Header */
 
 	#header {
-		width: 20em;
+		width: 21.5em;
 	}
 
 	/* Wrapper */
 
 	#wrapper {
-		padding-right: 20em;
+		padding-right: 21.5em;
 	}
 
 }
@@ -3343,7 +3343,7 @@ input[type="button"]:disabled,
 
 /* Custom homepage enhancements */
 #header>header p {
-	max-width: 14.5em;
+	max-width: 17em;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
